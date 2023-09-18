@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+  Open this Page in your local internet browser.
+  Shared by Acquia Inc. for Acquia Academy.
+  The purpose of this site is make it convenient for you to follow along with the Waterfall Handbook 
+  Drupal Site Building Course in Acquia Academy.
+  The theme of this site was created by TEMPLATED, under the Creative Commons Attribution License.
+  Author: Dallas Ramsden: drupal.org/u/dreambubbler
+-->
+
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Undeviating 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140322
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Waterfall Content Type | Waterfall Handbook Course Assets. Provided by Acquia Academy!</title>
+<meta name="keywords" content="Acquia, Drupal, Drupal 9" />
+<meta name="description" content="Assets for the Waterfall Handbook Drupal Site Building Course provided by Acquia Inc." />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+<link href="../.ignore/css/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../.ignore/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atom-one-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/bash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/html.min.js"></script>
+
+<!--[if IE 6]><link href="../.ignore/css/default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+        	<img src="../.ignore/images/LOGOLearningServicesLOGOx200.png" />
+			<h1><a href="../index.html">Waterfall Handbook Course Assets</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="../index.html" accesskey="1" title="">Homepage</a></li>
+				<li><a href="../Unit4/Unit4.html" accesskey="2" title="">Unit 4</a></li>
+				<li class="active"><a href="Unit5.html" accesskey="3" title="">Unit 5</a></li>
+				<li><a href="../Unit7/Unit7.html" accesskey="4" title="">Unit 7</a></li>
+				<li><a href="../Unit9/Unit9.html" accesskey="5" title="">Unit 9</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="breadcrumbs">
+	<p><a href="Unit5.html">Unit 5</a> &gt;&gt; Waterfall Content Type</p>
+</div>
+<div class="wrapper">
+	<div id="banner" class="container">
+		<p><label>The following list is ordered in the manner the fields are created in the videos.</label></p>				
+	</div>
+
+	<table>
+		<tr>
+		    <th>Label</th>
+		    <th>Machine name</th>
+		    <th>Field type</th>
+		    <th>Help text</th>
+	  	</tr>
+	  	<tr>
+	  		<td>Waterfall description</td>
+	  		<td>body</td>
+	  		<td>Text (formatted, long, with summary)</td>	
+	  		<td>Describe the Waterfall as beautifully and specifically as you can.</td>  		
+	  	</tr>
+	  	<!-- Demo: create new field -->
+	  	<tr>
+	  		<td>Official Website</td>
+	  		<td>field_official_website</td>
+	  		<td>Link</td>
+	  		<td>If known, link to an external official website for the waterfall.</td>
+	  	</tr>
+	  	<!-- Demo: use existing field. -->
+	  	<tr>
+	  		<td>Waterfall Image</td>
+	  		<td>field_image</td>
+	  		<td>Image</td>
+	  		<td>Upload an image of the waterfall that is at least 500x500 pixels.</td>
+	  	</tr>
+	  	<tr>
+	  		<td>Hike duration</td>
+	  		<td>field_hike_duration</td>
+	  		<td>Number (integer)</td>
+	  		<td>Enter the round-trip duration of a typical hike, in minutes.</td>
+	  	</tr>	  	
+	  	<tr>
+	  		<td>Walking and driving instructions</td>
+	  		<td>field_walking_and_driving_instru</td>
+	  		<td>Text (formatted, long)</td>
+	  		<td>Details on how to arrive to waterfall.</td>
+	  	</tr>	  	
+	  	<tr>
+	  		<td>Waterfall height</td>
+	  		<td>field_waterfall_height</td>
+	  		<td>Number (integer)</td>
+	  		<td>Enter height of waterfall in meters.</td>
+	  	</tr>	  	
+	</table>
+	<!-- Demo: Media type field -->
+	<div id="banner" class="container">
+		<p><label>Media type field. (Media modules must be enabled prior to adding this field.)</label></p>
+	</div>
+
+	<table>
+		<tr>
+		    <th>Label</th>
+		    <th>Machine name</th>
+		    <th>Field type</th>
+		    <th>Help text</th>
+	  	</tr>
+	  	<tr>
+	  		<td>Waterfall video</td>
+	  		<td>field_waterfall_video</td>
+	  		<td>Entity reference</td>
+	  		<td>A link to a youtube or vimeo video which is rendered as a full video.</td>
+	  	</tr>
+	 </table>
+	 <!-- Demo: Taxonomy fields -->
+	 <div id="banner" class="container">
+		<p><label>Taxonomy fields. Ordered as per video demonstration. (Vocabularies: "Hiking Difficulty" and "Location" must be created prior to adding these fields.)</label></p>
+	</div>
+
+	<table>
+		<tr>
+		    <th>Label</th>
+		    <th>Machine name</th>
+		    <th>Field type</th>
+		    <th>Help text</th>
+	  	</tr>
+	  	<tr>
+	  		<td>Waterfall location</td>
+	  		<td>field_waterfall_location</td>
+	  		<td>Entity reference</td>
+	  		<td>Select the general location of the waterfall.</td>
+	  	</tr>
+	  	<tr>
+	  		<td>Hike difficulty</td>
+	  		<td>field_hike_difficulty</td>
+	  		<td>Entity reference</td>
+	  		<td>Select an appropriate difficulty of the hike required to reach waterfall.</td>
+	  	</tr>
+	  	
+	 </table>		
+
+</div>
+<div id="copyright">
+	<p><a href="https://www.acquia.com/" target="_blank">Acquia Inc.</a> | Acquia Academy <a href="https://www.acquiaacademy.com/" target="_blank">Drupal Site Building</a> course | Drupal is a registered trademark of Dries Buytaert.</p>
+	<ul class="contact">
+		<li><a href="https://twitter.com/acquia" class="icon icon-twitter"><span>Twitter</span></a></li>
+		<li><a href="https://www.facebook.com/acquia" class="icon icon-facebook"><span>Facebook</span></a></li>
+		<li><a href="http://www.linkedin.com/company/167056" class="icon icon-linkedin"><span>Pinterest</span></a></li>
+		<li><a href="https://www.youtube.com/user/AcquiaTV" class="icon icon-youtube"><span>YouTube</span></a></li>
+		<li><a href="https://www.acquiaacademy.com/" class="icon icon-book"><span>Acquia Academy</span></a></li>
+	</ul>
+</div>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
