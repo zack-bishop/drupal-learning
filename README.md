@@ -148,3 +148,12 @@ webflo/drupal-core-strict *
   - It's super handy that you can see a log of all the actions taken by the users.
 - `Configuration -> Development -> Logging Errors`: How you can enable debugging.
 - The `Help` menu contains links to the documentation for all the installed modules?!  That's awesome!
+
+## Unit 5: Content Types and Content Modeling
+- `Content Entity` == `Custom Post Type`?
+  - Also, kind of sounds like everything is configured via the backend?  Like entities are defined in the backend. Or does the author mean that the data is filled out in the backend?
+    - Its all configurable from the backend.  Interesting!
+- Revisions: interesting, you have to update the revision log manually.  Or, more accurately, you're able to enter a description of the work you did.
+- Are "machine names" for fields editable?  I don't think they are.  Better be mindful of this moving forward.
+- Noticed the images on the Waterfalls can only be uploaded.  I wonder what needs to be done to use the media library to select pre-existing images.
+- Superinteresting that the fields that have been added already show up on the front end.  
