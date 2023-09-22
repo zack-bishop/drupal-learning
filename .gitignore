@@ -1,3 +1,4 @@
 drupal10/vendor
 .idea
 drupal10/web/core/assets/vendor
+.DS_Store

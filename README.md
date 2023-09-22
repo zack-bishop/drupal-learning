@@ -120,12 +120,12 @@ conflicts
 webflo/drupal-core-strict *
 ```
 - composer command to check for outdated: `composer outdated 'drupal/*'`
-- command to update (with recommended scaffolding): `composer update drupal/core 'drupal/core-* --with-all-dependencies`
+- command to update (with recommended scaffolding): `composer update drupal/core 'drupal/core-*' --with-all-dependencies`
 - command to update (without recommend scaffolding): `composer update drupal/core --with-dependencies`
 - update the db via: `fin drush updatedb`
 - clear cache: `fin drush cache:rebuild`
 
 ## Unit 4: Preparing our Site for Success - The Drupal Essentials
-- User #1 is the super user.  Can the super user ever change?
+- User #1 is the super user.  Question: Can the super user ever change?
 - Wierd: Drupal has administrative and front-end themes.  
 - `node`: every drupal content item is referred to as a "node"
