@@ -135,25 +135,42 @@ webflo/drupal-core-strict *
   - The "regions" structure reminds of elementor / gutenberg.
   - `Structure -> Block Layout -> Custom Block Library` doesn't exist.  Instead, go to `Content -> Blocks`.
   - The blocks are interesting.  I wonder if these came before / after / in response to Gutenberg / WP Page builders?
-- Modules:
-  - Core modules - Modules from the Drupal team
-  - Contributed modules - Modules from the Drupal community
-  - Custom modules - Modules from the development team
-  - Note: don't use the blue "Install New Module" button to install modules.  Use composer.
-- Role Permissions
-  - It's very interesting that Drupal has so few default roles
-  - You can see all role permissions from the backend, which is definitely a difference from WP.
+### Modules:
+- Core modules - Modules from the Drupal team
+- Contributed modules - Modules from the Drupal community
+- Custom modules - Modules from the development team
+- Note: don't use the blue "Install New Module" button to install modules.  Use composer.
+### Role Permissions
+- It's very interesting that Drupal has so few default roles
+- You can see all role permissions from the backend, which is definitely a difference from WP.
+### Reports
 - I really dig the Reports tab.  
-  - It's nice that you can see all the 404s and junk by default.
-  - It's super handy that you can see a log of all the actions taken by the users.
+- It's nice that you can see all the 404s and junk by default.
+- It's super handy that you can see a log of all the actions taken by the users.
 - `Configuration -> Development -> Logging Errors`: How you can enable debugging.
 - The `Help` menu contains links to the documentation for all the installed modules?!  That's awesome!
 
 ## Unit 5: Content Types and Content Modeling
 - `Content Entity` == `Custom Post Type`?
-  - Also, kind of sounds like everything is configured via the backend?  Like entities are defined in the backend. Or does the author mean that the data is filled out in the backend?
-    - Its all configurable from the backend.  Interesting!
+- Also, kind of sounds like everything is configured via the backend?  Like entities are defined in the backend. Or does the author mean that the data is filled out in the backend?
+  - Its all configurable from the backend.  Interesting!
 - Revisions: interesting, you have to update the revision log manually.  Or, more accurately, you're able to enter a description of the work you did.
 - Are "machine names" for fields editable?  I don't think they are.  Better be mindful of this moving forward.
 - Noticed the images on the Waterfalls can only be uploaded.  I wonder what needs to be done to use the media library to select pre-existing images.
-- Superinteresting that the fields that have been added already show up on the front end.  
+  - Answer: Use the media library module.  This allows images to be re-usable
+- Super-interesting that the fields that have been added already show up on the front end.  
+- It's interesting that some field settings cannot be changed after content is uploaded. 
+
+### Media
+- The media system is different in version 7 as opposed to 8 and above.
+- Similar to wordpress, media are a post type / entity.  However, unlike WordPress, it appears as though Media is treated more like an entity than in wordpress
+  - For instance, in WP, you couldn't add fields to media as easily as in Drupal.
+  - The Source field is the most important with media types.
+- I like how "external media" is a thing.
+- I also like how you can define the directory for media.
+
+### Taxonomy
+- I like how they describe them as "Vocabularies"
+- It's interesting that you can create taxonomies that are just "out there."  You don't have to assign them to a thing.
+- It's interesting that you have to create a reference field to assign a Vocabulary to a thing.
+- Just noticed this, but it's interesting how all the Content just "lives together" under the Content menu.  What I mean is, individual post types aren't organized by content type.
