@@ -140,3 +140,11 @@ webflo/drupal-core-strict *
   - Contributed modules - Modules from the Drupal community
   - Custom modules - Modules from the development team
   - Note: don't use the blue "Install New Module" button to install modules.  Use composer.
+- Role Permissions
+  - It's very interesting that Drupal has so few default roles
+  - You can see all role permissions from the backend, which is definitely a difference from WP.
+- I really dig the Reports tab.  
+  - It's nice that you can see all the 404s and junk by default.
+  - It's super handy that you can see a log of all the actions taken by the users.
+- `Configuration -> Development -> Logging Errors`: How you can enable debugging.
+- The `Help` menu contains links to the documentation for all the installed modules?!  That's awesome!
