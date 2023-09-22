@@ -129,3 +129,14 @@ webflo/drupal-core-strict *
 - User #1 is the super user.  Question: Can the super user ever change?
 - Wierd: Drupal has administrative and front-end themes.  
 - `node`: every drupal content item is referred to as a "node"
+- added content along with lesson.
+- Seems straightforward, analogous to WP
+- Structure: Different from WP?
+  - The "regions" structure reminds of elementor / gutenberg.
+  - `Structure -> Block Layout -> Custom Block Library` doesn't exist.  Instead, go to `Content -> Blocks`.
+  - The blocks are interesting.  I wonder if these came before / after / in response to Gutenberg / WP Page builders?
+- Modules:
+  - Core modules - Modules from the Drupal team
+  - Contributed modules - Modules from the Drupal community
+  - Custom modules - Modules from the development team
+  - Note: don't use the blue "Install New Module" button to install modules.  Use composer.
