@@ -181,4 +181,8 @@ webflo/drupal-core-strict *
 - Not much else to report here.
 
 ## Unit 7: Building what appears on the page
-
+- kinda don't like how the blocks can be filtered by the page URL.  This seems fragile.  What if the URL for the page is updated?  Does Drupal know to change this setting?
+  - Tested this out.  changing the URL of the about page broke the hiking guide block.
+- Hmmm.  I think I like the drupal.org/projects module details.  It's nice to have a more developer oriented view about the modules you want to install
+- The pathauto module is interesting.  
+- I kind of appreciate that the flushing of caches is right there under the Drupal Drop menu.  It's kind of an improvement over having to "flush permalinks" by clicking a save button buried in menus.
