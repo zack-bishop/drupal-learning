@@ -174,3 +174,11 @@ webflo/drupal-core-strict *
 - It's interesting that you can create taxonomies that are just "out there."  You don't have to assign them to a thing.
 - It's interesting that you have to create a reference field to assign a Vocabulary to a thing.
 - Just noticed this, but it's interesting how all the Content just "lives together" under the Content menu.  What I mean is, individual post types aren't organized by content type.
+
+
+## Unit 6: User Roles and Permissions
+- Permissions given to the Authenticated User role get inherited to other user roles.  That feels weird to me, but I think I understand the logic.
+- Not much else to report here.
+
+## Unit 7: Building what appears on the page
+
