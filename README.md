@@ -186,3 +186,9 @@ webflo/drupal-core-strict *
 - Hmmm.  I think I like the drupal.org/projects module details.  It's nice to have a more developer oriented view about the modules you want to install
 - The pathauto module is interesting.  
 - I kind of appreciate that the flushing of caches is right there under the Drupal Drop menu.  It's kind of an improvement over having to "flush permalinks" by clicking a save button buried in menus.
+
+## Unit 8: The Views Interface, an Introduction
+- Interesting.  The views section is framed around displaying "lists" (which sounds analogous to archives) of content.
+- Interesting.  The author of the video says "first preference" should be given to use the Views UI over custom code.  I wonder if that holds up in practice?
+- The `For` dropdown in confusing.  What exactly is this doing? Used around the 3:00 mark in [https://partners.acquiaacademy.com/learn/course/669/play/5179/unit-8-creating-blocks-with-views](https://partners.acquiaacademy.com/learn/course/669/play/5179/unit-8-creating-blocks-with-views)
+  - OH!  The `For` option determines if this should be applied to all `Display` versions of this view, i.e the `Listing` view and the `Block` view.
