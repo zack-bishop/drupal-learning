@@ -192,3 +192,10 @@ webflo/drupal-core-strict *
 - Interesting.  The author of the video says "first preference" should be given to use the Views UI over custom code.  I wonder if that holds up in practice?
 - The `For` dropdown in confusing.  What exactly is this doing? Used around the 3:00 mark in [https://partners.acquiaacademy.com/learn/course/669/play/5179/unit-8-creating-blocks-with-views](https://partners.acquiaacademy.com/learn/course/669/play/5179/unit-8-creating-blocks-with-views)
   - OH!  The `For` option determines if this should be applied to all `Display` versions of this view, i.e the `Listing` view and the `Block` view.
+
+## Unit 9: Field Entities and Managing Displays
+- Neat that Drupal offers a `default` and `teaser` option for both displays by default
+
+### View Modes
+- Kind of fuzzy on what they are
+- This is really interesting how you can create view modes to display stuff.  I feel like it has a lot of potential, just not seeing it at this time.  
